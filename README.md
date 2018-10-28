@@ -10,6 +10,6 @@ Python 3 code (ran on 3.7) that solves the problem.
 
 The output of riddler.py.
 
-## submission.txt
+## submission.md
 
 What I sent to Mr. Roeder.
