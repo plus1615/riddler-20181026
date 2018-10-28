@@ -18,7 +18,8 @@ For N = 4 to 13, I used Python. The code is here:
 https://github.com/plus1615/riddler-20181026
 
 The answers are:
-```N = 4, p = 1624350/1624350 = 
+```
+N = 4, p = 1624350/1624350 = 
    1.0
 N = 5, p = 66461928/77968800 = 
    0.8524169667867146
