@@ -1,3 +1,5 @@
+### 51083/83895, or ~60.889% for N = 6; 100% for N < 5; ~0.277% for N = 13
+
 Step 1: Find all the different ways you could permute a hand of cards by grabbing a contiguous block of them and moving them somewhere else in the hand. I did this by a short Python function. For N = 6, there are 36 ways; for N = 13, there are 365.
 
 Step 2: Figure out how to recognize an acceptable hand. I defined a hand's "fingerprint" as the order of runs of suits -- for example, a hand with spade, club, diamond, diamond, club, and heart in that order would have the fingerprint "scdch". With a little thought, I figured out an acceptable hand would have one of these 32 fingerprints: s h d c sh sd sc hs hd hc ds dh dc cs ch cd shc sdc hsd hcd dsh dch chs cds shcd sdch hsdc hcds dshc dchs chsd cdsh. (It's neat how the initial letter of the suits of red cards have ascenders and the ones for black cards don't.)
